@@ -18,7 +18,7 @@
         <div class="topnav">
 	    	<div class="kartoffel"><img src="kartoffelpc.png" style="width:4vw;height:4vw;" /></div>
             	<a class="active" href="index.php">Home</a>
-            	<a href="projects.html">Projects</a>
+            	<a href="project.php">Projects</a>
             	<a href="info.html">Info</a>
 				<a href="sources.html">Sources</a>
 				<a href="webapp.php">Trainingsplaner</a>
