@@ -1,7 +1,6 @@
 <?php
 require ("aha.php");
 if (isset($_POST["submit"])) {
-    var_dump($_POST);
     $username = $_POST["username"];
     $passw = $_POST["password"];
     $permitlvl = 1;
@@ -24,7 +23,6 @@ function registerUser($username,$passw,$permitlvl){
     $stmt->bindParam(":passw", $passw);
     $stmt->bindParam(":permitlvl", $permitlvl);
     $stmt->execute();
-    echo("Registriert mit Permit-Level: $permitlvl Username: $username und Passwort: $passw");
-    header("Location: ../index.php");
+    header("Location: ./login.php");
 }
 ?>
