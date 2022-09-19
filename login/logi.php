@@ -16,6 +16,7 @@ if(isset($_POST["submit"])) {
     if($passw==$passwfdb) {
         session_start();
         $_SESSION["username"] = $userExists[0]["user"];
+        $_SESSION["permitlvl"] = $userExists[0]["permitlvl"];
         header("Location: ../index.php");
     } else {
         echo("Ja ne ist halt falsch ne");

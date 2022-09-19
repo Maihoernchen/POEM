@@ -1,9 +1,10 @@
 <?php
 	session_start();
 	if (count($_SESSION) != 0) {
-		$achne = $_SESSION["username"];
+		$username = $_SESSION["username"];
+		$permit = $_SESSION["permitlvl"];
 	} else {
-		$achne = "Login";
+		$username = "Login";
 	}
 ?>
 <head>
@@ -23,7 +24,7 @@
 				<a href="sources.php">Sources</a>
 				<a href="./login/login.php">
 					<?php
-						echo($achne);
+						echo($username);
 					?>
 				</a>
 			</div>
@@ -34,4 +35,6 @@
   			<a href="#about">About</a>
 		</div>
     </header>
+	<h1>Permitlvl:<?php echo($permit);?></h1>
 </body>
+</html>
