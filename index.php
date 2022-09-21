@@ -5,6 +5,7 @@
 		$permit = $_SESSION["permitlvl"];
 	} else {
 		$username = "Login";
+		$permit = 'To gain access, you have to sign in.';
 	}
 ?>
 <head>
