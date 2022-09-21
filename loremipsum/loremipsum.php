@@ -8,8 +8,13 @@
 
 //$li = file_get_contents('http://loripsum.net/api');
 
-$li = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commoda autem et incommoda in eo genere sunt, quae praeposita et reiecta diximus; Hic ambiguo ludimur. Ne amores quidem sanctos a sapiente alienos esse arbitrantur. Roges enim Aristonem, bonane ei videantur haec: vacuitas doloris, divitiae, valitudo; Mihi, inquam, qui te id ipsum rogavi? Expectoque quid ad id, quod quaerebam, respondeas. Nec enim, dum metuit, iustus est, et certe, si metuere destiterit, non erit; Quae diligentissime contra Aristonem dicuntur a Chryippo. Duo Reges: constructio interrete. Ex rebus enim timiditas, non ex vocabulis nascitur. Restinguet citius, si ardentem acceperit. Hoc Hieronymus summum bonum esse dixit.';
+$li = '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commoda autem et incommoda in eo genere sunt, quae praeposita et reiecta diximus; Hic ambiguo ludimur. Ne amores quidem sanctos a sapiente alienos esse arbitrantur. Roges enim Aristonem, bonane ei videantur haec: vacuitas doloris, divitiae, valitudo; Mihi, inquam, qui te id ipsum rogavi? Expectoque quid ad id, quod quaerebam, respondeas. Nec enim, dum metuit, iustus est, et certe, si metuere destiterit, non erit; Quae diligentissime contra Aristonem dicuntur a Chryippo. Duo Reges: constructio interrete. Ex rebus enim timiditas, non ex vocabulis nascitur. Restinguet citius, si ardentem acceperit. Hoc Hieronymus summum bonum esse dixit. </p>
 
+<p>Immo videri fortasse. Haec quo modo conveniant, non sane intellego. Apud ceteros autem philosophos, qui quaesivit aliquid, tacet; Quodcumque in mentem incideret, et quodcumque tamquam occurreret. </p>
+
+<p>Pugnant Stoici cum Peripateticis. Inde sermone vario sex illa a Dipylo stadia confecimus. Nos quidem Virtutes sic natae sumus, ut tibi serviremus, aliud negotii nihil habemus. </p>
+
+<p>Nam, ut paulo ante docui, augendae voluptatis finis est doloris omnis amotio. Quid autem habent admirationis, cum prope accesseris? Quid enim est a Chrysippo praetermissum in Stoicis? Itaque primos congressus copulationesque et consuetudinum instituendarum voluntates fieri propter voluptatem; Vide ne ista sint Manliana vestra aut maiora etiam, si imperes quod facere non possim. Unum nescio, quo modo possit, si luxuriosus sit, finitas cupiditates habere. </p>';
 // split contents into word list
 
 $li = explode(' ',$li);
