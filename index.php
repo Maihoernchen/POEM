@@ -36,6 +36,6 @@
   			<a href="#about">About</a>
 		</div>
     </header>
-	<h1>Permitlvl:<?php echo($permit);?></h1>
+	<h1><?php echo($permit);?></h1>
 </body>
 </html>
