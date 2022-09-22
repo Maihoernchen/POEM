@@ -19,11 +19,11 @@
     <header>
         <div class="topnav">
 	    	<div class="kartoffel"><img src="kartoffelpc.png" style="width:4vw;height:4vw;" /></div>
-            	<a class="active" href="index.php">Home</a>
+            	<a class="active" href="/">Home</a>
             	<a href="projects.php">Projects</a>
             	<a href="info.php">Info</a>
 				<a href="sources.php">Sources</a>
-				<a href="./login/login.php">
+				<a href="/login/login.php">
 					<?php
 						echo($username);
 					?>
